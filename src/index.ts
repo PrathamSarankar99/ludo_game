@@ -3,7 +3,8 @@ import express from 'express';
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Hello!');
+    console.log("Hello world from unstable branch. This is a test");
+    res.send('Hello World!');
 });
 
 app.listen(3000, () => {
